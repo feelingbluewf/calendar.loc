@@ -1,0 +1,90 @@
+.form-control-input {
+		display: inline-block;
+		width: 90%;
+		height: calc(1.6em + 0.75rem + 2px);
+		padding: 0.375rem 0.75rem;
+		font-size: 0.9rem;
+		font-weight: 400;
+		line-height: 1.6;
+		color: #495057;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid #ced4da;
+		border-radius: 0.25rem;
+		-webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	}
+	.custab{
+		border: 1px solid #ccc;
+		padding: 5px;
+		margin: 3% 0;
+		box-shadow: 3px 3px 2px #ccc;
+		transition: 0.5s;
+	}
+	.custab:hover{
+		box-shadow: 3px 3px 0px transparent;
+		transition: 0.5s;
+	}
+	.label-success {
+		background-color: #468847 !important;
+	}
+	.label-warning {
+		background-color: #f89406 !important;
+	}
+	.label {
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.label {
+		display: inline-block;
+		padding: 2px 4px;
+		font-size: 11.844px;
+		font-weight: bold;
+		line-height: 14px;
+		color: #ffffff;
+		vertical-align: baseline;
+		white-space: nowrap;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+		background-color: #999999;
+	}
+	.margin-left {
+		margin-left: 10px;
+	}
+	.opacity {
+		opacity: 0.5;
+		pointer-events: none;
+	}
+	.fas {
+		cursor: pointer;
+	}
+	input {
+		outline:none !important;
+	}
+	button {
+		outline: none !important;
+	}
+	.modal {
+		display:    none;
+		position:   fixed;
+		z-index:    1000;
+		top:        0;
+		left:       0;
+		height:     100%;
+		width:      100%;
+		background: rgba( 255, 255, 255, .8 ) 
+		url('https://flevix.com/wp-content/uploads/2019/07/Ring-Loading.gif') 
+		50% 50% 
+		no-repeat;
+	}
+	body.loading .modal {
+		overflow: hidden !important;   
+	}
+
+	body.loading .modal {
+		display: block !important;
+	}
+	.loading {
+		display: block !important;
+		/*float: right !important;*/
+	}
