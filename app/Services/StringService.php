@@ -197,7 +197,7 @@ class StringService {
 					$editable = false;
 					$icon = 'success';
 				}
-				if($error !== '' && $error !== 'OK'){
+				if($error != '' && $error != 'OK'){
 					$opacity = 'opacity';
 					$editable = false;
 					$icon = 'fail';
